@@ -7,7 +7,7 @@ from uresnet import uresnet
 from skimage import io
 
 net = uresnet()
-checkpoint = torch.load('F:\\python_Code\\Segmentation_code\\Example\\checkpoint\\19.pt')
+checkpoint = torch.load('')  # load checkpoint
 net.load_state_dict(checkpoint['net_state_dict'])
 
 size = 1200;size1 = 2600
