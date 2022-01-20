@@ -50,12 +50,12 @@ def image2label(im):
 #     my_file.write(append_text)
 #     my_file.close()
 #=============================================================================
-ROOT = "F:\\python_Code\\Segmentation_code\\Example\\"
+ROOT = "Segmentation_code\\Example\\"
 # Reading image data
 def read_image(mode="train", val=False):
-    if(mode=="train"):    # 加载训练数据
+    if(mode=="train"):    
         filename = ROOT + "\\train.txt"
-    elif(mode == "test"):    # 加载测试数据
+    elif(mode == "test"):    
         filename = ROOT + "\\test.txt"
 
     data = []
